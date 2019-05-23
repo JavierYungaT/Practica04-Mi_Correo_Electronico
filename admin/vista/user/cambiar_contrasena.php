@@ -26,8 +26,8 @@
             <input type="password" id="contrasena2" name="contrasena2" value="" required placeholder="Ingrese su contrasena nueva...">
             <br>
 
-            <input type="submit" id="modificar" name="modificar" value="Modificar" class="boton">
-            <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="boton">
+            <input id="boton"  type="submit" id="modificar" name="modificar" value="Modificar" class="boton">
+            <input id="boton" type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="boton">
         </form>
     </body>
 </html>

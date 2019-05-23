@@ -25,7 +25,7 @@
                 <li><a href="../../../config/cerrar_sesion.php">Cerrar Sesion</a></li>
             </ul>
         </nav>
-        <section class="mensajes">
+        <section class="wrapper">
             <h3>Mensajes Enviados</h3>
             <form id="form_mensajes">
             <form id="form_mensajes"><input type="text" id="correoBuscar" name="correoBuscar" value="" onkeyup="buscarC2(<?php echo $codigo ?>)" placeholder="Buscar por correo...">
@@ -78,9 +78,8 @@
             </form>
         </section>
         <footer>
+            <p>Autor: Javier Yunga</p>
             <p>Copyright</p>
-            <p>David Andres Morales Rivera</p>
-            <p>2019</p>
         </footer>
     </body>
 </html>

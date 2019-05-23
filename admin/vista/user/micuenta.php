@@ -10,6 +10,7 @@
         <meta charset="UTF-8">
         <title>Mi Cuenta</title>
         <link rel="stylesheet" rel="stylesheet" href="../../../style.css">
+       
     </head>
     <body>
         <?php 
@@ -83,7 +84,7 @@
             ?>
         </table>
         <footer>
-            <p>Javier Yunga</p>
+            <p>Autor: Javier Yunga</p>
             <p>Copyright</p>
         </footer>
     </body>

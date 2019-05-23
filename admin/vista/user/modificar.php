@@ -53,8 +53,8 @@
                         <input type="email" id="correo" name="correo" value="<?php echo $row["usu_correo"]; ?>" required_placeholder="Ingrese el correo electronico...">
                         <br>
 
-                        <input type="submit" id="modificar" name="modificar" value="Modificar" class="boton" >
-                        <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="boton">
+                        <input id="boton" type="submit" id="modificar" name="modificar" value="Modificar" class="boton" >
+                        <input id="boton" type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='micuenta.php?codigo=<?php echo $codigo ?>'" class="boton">
                     </form>
         <?php            
                 }
