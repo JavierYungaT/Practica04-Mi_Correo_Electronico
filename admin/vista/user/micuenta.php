@@ -83,9 +83,8 @@
             ?>
         </table>
         <footer>
+            <p>Javier Yunga</p>
             <p>Copyright</p>
-            <p>David Andres Morales Rivera</p>
-            <p>2019</p>
         </footer>
     </body>
 </html>
